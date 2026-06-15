@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-title-fr="Leçon 2 — 我每天六点起床" data-title-en="Lesson 2 — 我每天六点起床">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Leçon 2 — 我每天六点起床</title>
 <link rel="stylesheet" href="style.css">
+<script>try{if(localStorage.getItem('hsk2-lang')==='en')document.documentElement.classList.add('en');}catch(e){}</script>
 </head>
 <body>
 <header class="site">
-  <h1>Leçon 2 — 我每天六点起床</h1>
-  <p>Je me lève à six heures tous les jours.</p>
+  <h1><span class="lang-fr">Leçon 2 — 我每天六点起床</span><span class="lang-en">Lesson 2 — 我每天六点起床</span></h1>
+  <p><span class="lang-fr">Je me lève à six heures tous les jours.</span><span class="lang-en">I get up at six o'clock every day.</span></p>
 </header>
-<nav class="top"><a href="index.html">&#8962; Accueil</a></nav>
+<nav class="top">
+  <a href="index.html"><span class="lang-fr">&#8962; Accueil</span><span class="lang-en">&#8962; Home</span></a>
+  <button id="lang-toggle" type="button" aria-label="Changer de langue / Switch language"><span class="lang-fr">English</span><span class="lang-en">Français</span></button>
+</nav>
 <main>
+<div class="lang-fr">
 <h1>wǒ měitiān liù diǎn qǐchuáng</h1>
 <p><em>"Je me lève à six heures tous les jours."</em></p>
 <hr />
@@ -792,8 +797,808 @@
 </tr>
 </tbody>
 </table>
+</div>
+<div class="lang-en">
+<h1>wǒ měitiān liù diǎn qǐchuáng</h1>
+<p><em>"I get up at six o'clock every day."</em></p>
+<hr />
+<h2>📚 New Vocabulary</h2>
+<hr />
+<h3>1. 生病 — shēng bìng — <em>to fall ill (v.)</em></h3>
+<blockquote>
+<p>病 bìng alone = to be ill (v.) / illness (n.)</p>
+<ul>
+<li>她生病了 = 她病了 tā bìng le → She is ill.</li>
+<li>病人 bìngrén → a sick person, a patient</li>
+</ul>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>她生病了。</td>
+<td>Tā shēngbìng le.</td>
+<td>She has fallen ill.</td>
+</tr>
+<tr>
+<td>她是病人。</td>
+<td>Tā shì bìngrén.</td>
+<td>She is a patient (at the hospital).</td>
+</tr>
+<tr>
+<td>Sally 10月没来工作，因为她生病了。</td>
+<td>Sally shí yuè méi lái gōngzuò, yīnwèi tā shēngbìng le.</td>
+<td>Sally didn't come to work in October because she was ill.</td>
+</tr>
+<tr>
+<td>她生病了一个月，这个月她病好了。</td>
+<td>Tā shēngbìng le yí ge yuè, zhège yuè tā bìng hǎo le.</td>
+<td>She was ill for a month; this month she has recovered.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>2. 每 — měi — <em>each, every (pron.)</em></h3>
+<blockquote>
+<p>Used before a time period or a measure word to express regularity.</p>
+<p><strong>每 + (个) + time unit + 都 dōu</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Expression</th>
+<th>Pinyin</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>每天</td>
+<td>měitiān</td>
+<td>every day</td>
+</tr>
+<tr>
+<td>每年</td>
+<td>měi nián</td>
+<td>every year</td>
+</tr>
+<tr>
+<td>每（个）星期</td>
+<td>měi (ge) xīngqī</td>
+<td>every week</td>
+</tr>
+<tr>
+<td>每（个）月</td>
+<td>měi (ge) yuè</td>
+<td>every month</td>
+</tr>
+<tr>
+<td>每（个）人</td>
+<td>měi (ge) rén</td>
+<td>every person</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>你每天都运动吗？</td>
+<td>Nǐ měitiān dōu yùndòng ma?</td>
+<td>Do you exercise every day?</td>
+</tr>
+<tr>
+<td>你每天都学中文吗？</td>
+<td>Nǐ měitiān dōu xué zhōngwén ma?</td>
+<td>Do you study Chinese every day?</td>
+</tr>
+<tr>
+<td>你每年都去旅游吗？</td>
+<td>Nǐ měi nián dōu qù lǚyóu ma?</td>
+<td>Do you travel every year?</td>
+</tr>
+<tr>
+<td>你每天几点睡觉？</td>
+<td>Nǐ měitiān jǐ diǎn shuìjiào?</td>
+<td>What time do you go to bed every day?</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>3. 早上 — zǎo shang — <em>morning (n.)</em></h3>
+<blockquote>
+<p>Progression of the day: 早上 zǎoshang → 上午 shàngwǔ → 中午 zhōngwǔ → 下午 xiàwǔ → 晚上 wǎnshang <em>(early morning → late morning → noon → afternoon → evening)</em></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>今天早上你几点起床？</td>
+<td>Jīntiān zǎoshang nǐ jǐ diǎn qǐchuáng?</td>
+<td>What time did you get up this morning?</td>
+</tr>
+<tr>
+<td>她每天早上都跑步。</td>
+<td>Tā měitiān zǎoshang dōu pǎobù.</td>
+<td>She runs every morning.</td>
+</tr>
+<tr>
+<td>早上好！</td>
+<td>Zǎoshang hǎo!</td>
+<td>Good morning!</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>4. 跑步 — pǎo bù — <em>to run, to jog (v.)</em></h3>
+<blockquote>
+<p>跑 pǎo = to run</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>张丽最喜欢的运动是跑步。</td>
+<td>ZhāngLì zuì xǐhuan de yùndòng shì pǎobù.</td>
+<td>Zhang Li's favourite sport is running.</td>
+</tr>
+<tr>
+<td>她每天早上都跑步，每天跑30多分钟。</td>
+<td>Tā měitiān zǎoshang dōu pǎobù, měitiān pǎo 30 duō fēnzhōng.</td>
+<td>She runs every morning, more than 30 minutes a day.</td>
+</tr>
+<tr>
+<td>你喜欢跑步吗？</td>
+<td>Nǐ xǐhuan pǎobù ma?</td>
+<td>Do you like running?</td>
+</tr>
+<tr>
+<td>明天你有时间跑步吗？</td>
+<td>Míngtiān nǐ yǒu shíjiān pǎobù ma?</td>
+<td>Do you have time to run tomorrow?</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>5. 起床 — qǐ chuáng — <em>to get up (v.)</em></h3>
+<blockquote>
+<p>Antonym: 睡觉 shuìjiào = to sleep, to go to bed</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>你今天早上几点起床？</td>
+<td>Nǐ jīntiān zǎoshang jǐ diǎn qǐchuáng?</td>
+<td>What time did you get up this morning?</td>
+</tr>
+<tr>
+<td>星期六和星期天，你几点起床？</td>
+<td>Xīngqī liù hé xīngqī tiān, nǐ jǐ diǎn qǐchuáng?</td>
+<td>On Saturday and Sunday, what time do you get up?</td>
+</tr>
+<tr>
+<td>起床后，你做什么？</td>
+<td>Qǐchuáng hòu, nǐ zuò shénme?</td>
+<td>After getting up, what do you do?</td>
+</tr>
+<tr>
+<td>我每天六点起床。</td>
+<td>Wǒ měitiān liù diǎn qǐchuáng.</td>
+<td>I get up at six o'clock every day.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>6. 药 — yào — <em>medicine (n.)</em></h3>
+<blockquote>
+<p>Useful expressions:</p>
+<ul>
+<li>吃药 chī yào = to take medicine</li>
+<li>药店 yàodiàn = pharmacy</li>
+</ul>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>吃药</td>
+<td>chī yào</td>
+<td>to take medicine</td>
+</tr>
+<tr>
+<td>吃饭后，我要吃一些药。</td>
+<td>Chī fàn hòu, wǒ yào chī yì xiē yào.</td>
+<td>After eating, I have to take some medicine.</td>
+</tr>
+<tr>
+<td>杨光去药店买了一些药。</td>
+<td>Yángguāng qù yàodiàn mǎi le yì xiē yào.</td>
+<td>Yang Guang went to the pharmacy and bought some medicine.</td>
+</tr>
+<tr>
+<td>吃了药后，他病好了。</td>
+<td>Chī le yào hòu, tā bìng hǎo le.</td>
+<td>After taking the medicine, he recovered.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>7. 身体 — shēn tǐ — <em>body, health (n.)</em></h3>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>他的身体怎么样？</td>
+<td>Tā de shēntǐ zěnmeyàng?</td>
+<td>How is his health?</td>
+</tr>
+<tr>
+<td>他的身体不太好。</td>
+<td>Tā de shēntǐ bú tài hǎo.</td>
+<td>His health isn't very good.</td>
+</tr>
+<tr>
+<td>Anna 的身体很好，因为她每天都运动。</td>
+<td>Anna de shēntǐ hěn hǎo, yīnwèi tā měitiān dōu yùndòng.</td>
+<td>Anna's health is very good because she exercises every day.</td>
+</tr>
+<tr>
+<td>你身体好吗？</td>
+<td>Nǐ shēntǐ hǎo ma?</td>
+<td>Are you well (in good health)?</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>8. 出院 — chū yuàn — <em>to leave the hospital (v.)</em></h3>
+<blockquote>
+<p>Two complementary words:</p>
+<ul>
+<li>住院 zhù yuàn = to be hospitalised, to be admitted (住 zhù = to stay/live · 院 yuàn = hospital)</li>
+<li>出院 chū yuàn = to leave the hospital (出 chū = to exit · 院 yuàn = hospital)</li>
+</ul>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>我什么时候能出院？</td>
+<td>Wǒ shénme shíhòu néng chūyuàn?</td>
+<td>When can I leave the hospital?</td>
+</tr>
+<tr>
+<td>明天你能出院了。</td>
+<td>Míngtiān nǐ néng chūyuàn le.</td>
+<td>Tomorrow you'll be able to leave the hospital.</td>
+</tr>
+<tr>
+<td>星期一他生病住院了。</td>
+<td>Xīngqī yī tā shēngbìng zhùyuàn le.</td>
+<td>On Monday he fell ill and was hospitalised.</td>
+</tr>
+<tr>
+<td>现在他身体好多了，明天能出院了。</td>
+<td>Xiànzài tā shēntǐ hǎo duō le, míngtiān néng chūyuàn le.</td>
+<td>Now he is much better, he can leave tomorrow.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>9. 高 — gāo — <em>tall, high (adj.)</em></h3>
+<blockquote>
+<p>Antonyms:</p>
+<ul>
+<li>矮 ǎi = short (height)</li>
+<li>低 dī = low (temperature, level)</li>
+</ul>
+<p>Question: <strong>多高 duō gāo ?</strong> = How tall? How high?</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>爸爸很高。</td>
+<td>Bàba hěn gāo.</td>
+<td>Dad is very tall.</td>
+</tr>
+<tr>
+<td>儿子很矮。</td>
+<td>Érzi hěn ǎi.</td>
+<td>The son is very short.</td>
+</tr>
+<tr>
+<td>爸爸多高？</td>
+<td>Bàba duō gāo?</td>
+<td>How tall is Dad?</td>
+</tr>
+<tr>
+<td>7月的气温很高。</td>
+<td>Qī yuè de qìwēn hěn gāo.</td>
+<td>The temperature in July is very high.</td>
+</tr>
+<tr>
+<td>1月的气温很低。</td>
+<td>Yī yuè de qìwēn hěn dī.</td>
+<td>The temperature in January is very low.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>10. 米 — mǐ — <em>metre (n.)</em></h3>
+<blockquote>
+<p>To express height: <strong>一米八 yī mǐ bā</strong> = 1.80 m <strong>两米一 liǎng mǐ yī</strong> = 2.10 m</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>他多高？</td>
+<td>Tā duō gāo?</td>
+<td>How tall is he?</td>
+</tr>
+<tr>
+<td>他两米多。</td>
+<td>Tā liǎng mǐ duō.</td>
+<td>He is over 2 metres tall.</td>
+</tr>
+<tr>
+<td>他两米一。</td>
+<td>Tā liǎng mǐ yī.</td>
+<td>He is 2.10 m tall.</td>
+</tr>
+<tr>
+<td>王医生的儿子多高？他儿子一米七。</td>
+<td>Wáng yīshēng de érzi duō gāo? Tā érzi yī mǐ qī.</td>
+<td>How tall is Dr Wang's son? He is 1.70 m.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>11. 知道 — zhī dào — <em>to know (a fact) (v.)</em></h3>
+<blockquote>
+<p>⚠️ <strong>知道 zhīdào</strong> = to know (a fact, a piece of info)</p>
+<p>Not to be confused with <strong>认识 rènshi</strong> = to know (a person)</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>你知道现在几点了吗？</td>
+<td>Nǐ zhīdào xiànzài jǐ diǎn le ma?</td>
+<td>Do you know what time it is?</td>
+</tr>
+<tr>
+<td>你知道老师住在哪里吗？</td>
+<td>Nǐ zhīdào lǎoshī zhù zài nǎlǐ ma?</td>
+<td>Do you know where the teacher lives?</td>
+</tr>
+<tr>
+<td>你知道 Jackie Chan 今年多少岁吗？</td>
+<td>Nǐ zhīdào Jackie Chan jīnnián duōshǎo suì ma?</td>
+<td>Do you know how old Jackie Chan is this year?</td>
+</tr>
+<tr>
+<td>我不知道。</td>
+<td>Wǒ bù zhīdào.</td>
+<td>I don't know.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>12. 休息 — xiū xi — <em>to rest, to be closed (v.)</em></h3>
+<blockquote>
+<p>Two main uses:</p>
+<ol>
+<li>To rest / take a break</li>
+<li>To be off / be closed (shop, person)</li>
+</ol>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>我们运动了三十分钟，休息十分钟吧。</td>
+<td>Wǒmen yùndòng le sānshí fēnzhōng, xiūxi shí fēnzhōng ba.</td>
+<td>We exercised for 30 minutes, let's rest for 10 minutes.</td>
+</tr>
+<tr>
+<td>星期六我不工作，休息一天。</td>
+<td>Xīngqī liù wǒ bù gōngzuò, xiūxi yì tiān.</td>
+<td>On Saturday I don't work, I rest for a day.</td>
+</tr>
+<tr>
+<td>星期天很多商店休息。</td>
+<td>Xīngqī tiān hěn duō shāngdiàn xiūxi.</td>
+<td>On Sunday many shops are closed.</td>
+</tr>
+<tr>
+<td>你有时间休息吗？</td>
+<td>Nǐ yǒu shíjiān xiūxi ma?</td>
+<td>Do you have time to rest?</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>13. 忙 — máng — <em>busy (adj.)</em></h3>
+<blockquote>
+<p>Antonym: 闲 xián = free, not busy</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>今天你忙吗？</td>
+<td>Jīntiān nǐ máng ma?</td>
+<td>Are you busy today?</td>
+</tr>
+<tr>
+<td>你每天都很忙吗？</td>
+<td>Nǐ měitiān dōu hěn máng ma?</td>
+<td>Are you very busy every day?</td>
+</tr>
+<tr>
+<td>这个月他工作很忙，没有很多时间休息。</td>
+<td>Zhège yuè tā gōngzuò hěn máng, méiyǒu hěn duō shíjiān xiūxi.</td>
+<td>This month he is very busy at work, he doesn't have much time to rest.</td>
+</tr>
+<tr>
+<td>他星期六也工作，没有时间休息。</td>
+<td>Tā xīngqī liù yě gōngzuò, méiyǒu shíjiān xiūxi.</td>
+<td>He works on Saturday too, he has no time to rest.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>14. 时间 — shí jiān — <em>time (n.)</em></h3>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>你明天有时间吗？</td>
+<td>Nǐ míngtiān yǒu shíjiān ma?</td>
+<td>Do you have time tomorrow?</td>
+</tr>
+<tr>
+<td>明天你有时间跑步吗？</td>
+<td>Míngtiān nǐ yǒu shíjiān pǎobù ma?</td>
+<td>Do you have time to run tomorrow?</td>
+</tr>
+<tr>
+<td>这个星期你有时间学中文吗？</td>
+<td>Zhège xīngqī nǐ yǒu shíjiān xué zhōngwén ma?</td>
+<td>Do you have time to study Chinese this week?</td>
+</tr>
+<tr>
+<td>我没有时间。</td>
+<td>Wǒ méiyǒu shíjiān.</td>
+<td>I don't have time.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>🔤 Grammar</h2>
+<hr />
+<h3>1. Questions with 是不是 — shì bu shì</h3>
+<h4><em>"Isn't it? / It's… right?"</em></h4>
+<blockquote>
+<p><strong>是不是</strong> is used to ask a question seeking confirmation of an assumption. It can go at the start of the sentence, before the verb, or at the end.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Position</th>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Before the verb</td>
+<td>你很少生病，是不是喜欢运动？</td>
+<td>Nǐ hěn shǎo shēngbìng, shì bu shì xǐhuan yùndòng?</td>
+<td>You rarely get ill — you like exercising, is that it?</td>
+</tr>
+<tr>
+<td>At the start</td>
+<td>是不是明天爸爸休息？</td>
+<td>Shì bu shì míngtiān bàba xiūxi?</td>
+<td>Is it tomorrow that Dad is off?</td>
+</tr>
+<tr>
+<td>At the end</td>
+<td>我们星期一去北京，是不是？</td>
+<td>Wǒmen xīngqī yī qù Běijīng, shì bu shì?</td>
+<td>We're going to Beijing on Monday, right?</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>2. The pronoun 每 měi + 都 dōu</h3>
+<h4><em>"Each… / Every…"</em></h4>
+<blockquote>
+<p><strong>每 měi</strong> is used before a time unit or a measure word. It is usually followed by <strong>都 dōu</strong> in the main clause.</p>
+<p><strong>Structure:</strong> 每 + (个) + unit + <strong>都</strong> + Verb</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>山姆每年都去中国旅游。</td>
+<td>Shānmǔ měi nián dōu qù Zhōngguó lǚyóu.</td>
+<td>Sam travels to China every year.</td>
+</tr>
+<tr>
+<td>你每个星期六都工作吗？</td>
+<td>Nǐ měi ge xīngqī liù dōu gōngzuò ma?</td>
+<td>Do you work every Saturday?</td>
+</tr>
+<tr>
+<td>我每天六点起床。</td>
+<td>Wǒ měitiān liù diǎn qǐchuáng.</td>
+<td>I get up at six o'clock every day.</td>
+</tr>
+<tr>
+<td>她每天早上都跑步。</td>
+<td>Tā měitiān zǎoshang dōu pǎobù.</td>
+<td>She runs every morning.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>3. 多 duō + adjective</h3>
+<h4><em>"How…? — Asking about a degree"</em></h4>
+<blockquote>
+<p><strong>多 duō</strong> placed before an adjective asks about a measurement or degree. The answer must give a precise figure.</p>
+<p><strong>Structure:</strong> Subject + <strong>多</strong> + Adjective ?</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Answer</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>你多大？ Nǐ duō dà?</td>
+<td>我16岁。Wǒ shíliù suì.</td>
+<td>How old are you? → I'm 16.</td>
+</tr>
+<tr>
+<td>王医生的儿子多高？</td>
+<td>他儿子一米七。</td>
+<td>How tall is Dr Wang's son? → 1.70 m.</td>
+</tr>
+<tr>
+<td>他多高？ Tā duō gāo?</td>
+<td>他一米八几。 Tā yī mǐ bā jǐ.</td>
+<td>How tall is he? → 1.80-something.</td>
+</tr>
+<tr>
+<td>富士山多高？</td>
+<td>富士山3776米。</td>
+<td>How high is Mount Fuji? → 3776 m.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Bonus — 好多了 hǎo duō le</strong>: adj. + 多了 = <em>much more + adj.</em></p>
+<ul>
+<li>好多了 hǎo duō le → much better</li>
+<li>高多了 gāo duō le → much taller/higher</li>
+<li>贵多了 guì duō le → much more expensive</li>
+</ul>
+</blockquote>
+<hr />
+<h2>💬 Dialogues</h2>
+<hr />
+<h3>Dialogue 1 — 在诊室 zài zhěnshì (<em>At the doctor's</em>)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Chinese</th>
+<th>Pinyin</th>
+<th>Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Doctor</td>
+<td>今天你吃药了吗？</td>
+<td>Jīntiān nǐ chī yào le ma?</td>
+<td>Did you take your medicine today?</td>
+</tr>
+<tr>
+<td>Patient</td>
+<td>我吃药了。医生，我什么时候能出院？</td>
+<td>Wǒ chī yào le. Yīshēng, wǒ shénme shíhòu néng chūyuàn?</td>
+<td>Yes, I took my medicine. Doctor, when can I leave the hospital?</td>
+</tr>
+<tr>
+<td>Doctor</td>
+<td>明天你能出院了。</td>
+<td>Míngtiān nǐ néng chūyuàn le.</td>
+<td>Tomorrow you'll be able to leave.</td>
+</tr>
+<tr>
+<td>Patient</td>
+<td>太好了！谢谢医生。</td>
+<td>Tài hǎo le! Xièxie yīshēng.</td>
+<td>Great! Thank you, doctor.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Questions:</strong> 病人今天吃药了吗？病人什么时候可以出院？</p>
+<hr />
+<h3>Dialogue 2 — Reading text (<em>赵明 ZhàoMíng</em>)</h3>
+<blockquote>
+<p>以前赵明很少生病，因为他很喜欢运动。 每天早上起床后，他出去跑步，每个星期六都和朋友一起踢足球。 他这几天生病住院了，因为这个月他工作很忙，没有很多时间休息。 今天他身体好多了，医生说他明天能出院了。</p>
+</blockquote>
+<p><em>In the past Zhao Ming rarely got ill because he loved exercising. Every morning after getting up, he would go out for a run, and every Saturday he played football with friends. These past few days he fell ill and was hospitalised, because this month his work is very busy and he doesn't have much time to rest and exercise. Today he is much better and the doctor says he can leave the hospital tomorrow.</em></p>
+<p><strong>Questions:</strong></p>
+<ol>
+<li>赵明以前为什么很少生病？ (Why did Zhao Ming rarely get ill before?)</li>
+<li>他这几天为什么生病了？ (Why did he get ill these past few days?)</li>
+<li>他什么时候能出院？ (When can he leave the hospital?)</li>
+</ol>
+<hr />
+<h2>💡 Quick Recap</h2>
+<table>
+<thead>
+<tr>
+<th>Key point</th>
+<th>Structure</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seek confirmation</td>
+<td>是不是 shì bu shì</td>
+<td>是不是你？ shì bu shì nǐ?</td>
+</tr>
+<tr>
+<td>Each / every</td>
+<td>每 měi + (个) + time + 都 dōu</td>
+<td>每天都跑步 měitiān dōu pǎobù</td>
+</tr>
+<tr>
+<td>Question about a degree</td>
+<td>多 duō + adj.</td>
+<td>多高？duō gāo? / 多大？duō dà?</td>
+</tr>
+<tr>
+<td>Much better</td>
+<td>adj. + 多了 duō le</td>
+<td>好多了 hǎo duō le</td>
+</tr>
+<tr>
+<td>To be hospitalised</td>
+<td>住院 zhùyuàn</td>
+<td>她住院了 tā zhùyuàn le</td>
+</tr>
+<tr>
+<td>To leave the hospital</td>
+<td>出院 chūyuàn</td>
+<td>明天能出院 míngtiān néng chūyuàn</td>
+</tr>
+</tbody>
+</table>
+</div>
 <nav class="pager"><a href="lecon-01.html">&larr; 九月去北京旅游最好</a><a href="lecon-03.html">左边那个红色的是我的 &rarr;</a></nav>
 </main>
-<footer class="site">HSK 2 — Standard Course · fiches personnelles</footer>
+<footer class="site"><span class="lang-fr">HSK 2 — Standard Course · fiches personnelles</span><span class="lang-en">HSK 2 — Standard Course · personal notes</span></footer>
+<script>
+(function(){
+  var KEY='hsk2-lang', root=document.documentElement;
+  function apply(en){
+    root.classList.toggle('en', en);
+    root.lang = en ? 'en' : 'fr';
+    var t = root.getAttribute(en ? 'data-title-en' : 'data-title-fr');
+    if (t) document.title = t;
+  }
+  apply((function(){try{return localStorage.getItem(KEY)==='en';}catch(e){return false;}})());
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('#lang-toggle')) return;
+    var en = !root.classList.contains('en');
+    try{localStorage.setItem(KEY, en ? 'en' : 'fr');}catch(e){}
+    apply(en);
+  });
+})();
+</script>
 </body>
 </html>

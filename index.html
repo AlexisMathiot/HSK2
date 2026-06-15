@@ -1,33 +1,72 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-title-fr="HSK 2 — Fiches de cours" data-title-en="HSK 2 — Course notes">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HSK 2 — Fiches de cours</title>
 <link rel="stylesheet" href="style.css">
+<script>try{if(localStorage.getItem('hsk2-lang')==='en')document.documentElement.classList.add('en');}catch(e){}</script>
 </head>
 <body>
 <header class="site">
-  <h1>HSK 2 — Fiches de cours</h1>
-  <p>Standard Course · vocabulaire, grammaire, dialogues</p>
+  <h1><span class="lang-fr">HSK 2 — Fiches de cours</span><span class="lang-en">HSK 2 — Course notes</span></h1>
+  <p><span class="lang-fr">Standard Course · vocabulaire, grammaire, dialogues</span><span class="lang-en">Standard Course · vocabulary, grammar, dialogues</span></p>
 </header>
-<nav class="top"><a href="index.html">&#8962; Accueil</a></nav>
+<nav class="top">
+  <a href="index.html"><span class="lang-fr">&#8962; Accueil</span><span class="lang-en">&#8962; Home</span></a>
+  <button id="lang-toggle" type="button" aria-label="Changer de langue / Switch language"><span class="lang-fr">English</span><span class="lang-en">Français</span></button>
+</nav>
 <main>
+<div class="lang-fr">
 <h1>Sommaire des leçons</h1>
 <ul class="lessons">
-<li><a href="lecon-01.html"><span class="num">Leçon 1</span><span class="zh">九月去北京旅游最好</span><span class="fr">Septembre est la meilleure période pour visiter Pékin.</span></a></li>
-<li><a href="lecon-02.html"><span class="num">Leçon 2</span><span class="zh">我每天六点起床</span><span class="fr">Je me lève à six heures tous les jours.</span></a></li>
-<li><a href="lecon-03.html"><span class="num">Leçon 3</span><span class="zh">左边那个红色的是我的</span><span class="fr">Celui de gauche en rouge, c'est le mien.</span></a></li>
-<li><a href="lecon-04.html"><span class="num">Leçon 4</span><span class="zh">这个工作是他帮我介绍的</span><span class="fr">C'est lui qui m'a recommandé pour ce travail.</span></a></li>
-<li><a href="lecon-05.html"><span class="num">Leçon 5</span><span class="zh">就买这件吧</span><span class="fr">Prends celui-ci.</span></a></li>
-<li><a href="lecon-06.html"><span class="num">Leçon 6</span><span class="zh">你怎么不吃了</span><span class="fr">Pourquoi tu ne manges plus ?</span></a></li>
-<li><a href="lecon-07.html"><span class="num">Leçon 7</span><span class="zh">你家离公司远吗</span><span class="fr">Tu habites loin de ton entreprise ?</span></a></li>
-<li><a href="lecon-08.html"><span class="num">Leçon 8</span><span class="zh">让我想想再告诉你</span><span class="fr">Laisse-moi y réfléchir et je te le dirai (après).</span></a></li>
-<li><a href="lecon-09.html"><span class="num">Leçon 9</span><span class="zh">题太多，我没做完</span><span class="fr">Il y a trop de questions, je n'ai pas tout fini.</span></a></li>
-<li><a href="les-demonstratifs.html"><span class="num">Note de grammaire</span><span class="zh">Les démonstratifs — 这 那 哪</span><span class="fr">Proche, loin, question</span></a></li>
+<li><a href="lecon-01.html"><span class="num"><span class="lang-fr">Leçon 1</span><span class="lang-en">Lesson 1</span></span><span class="zh">九月去北京旅游最好</span><span class="sub"><span class="lang-fr">Septembre est la meilleure période pour visiter Pékin.</span><span class="lang-en">September is the best time to travel to Beijing.</span></span></a></li>
+<li><a href="lecon-02.html"><span class="num"><span class="lang-fr">Leçon 2</span><span class="lang-en">Lesson 2</span></span><span class="zh">我每天六点起床</span><span class="sub"><span class="lang-fr">Je me lève à six heures tous les jours.</span><span class="lang-en">I get up at six o'clock every day.</span></span></a></li>
+<li><a href="lecon-03.html"><span class="num"><span class="lang-fr">Leçon 3</span><span class="lang-en">Lesson 3</span></span><span class="zh">左边那个红色的是我的</span><span class="sub"><span class="lang-fr">Celui de gauche en rouge, c'est le mien.</span><span class="lang-en">The red one on the left is mine.</span></span></a></li>
+<li><a href="lecon-04.html"><span class="num"><span class="lang-fr">Leçon 4</span><span class="lang-en">Lesson 4</span></span><span class="zh">这个工作是他帮我介绍的</span><span class="sub"><span class="lang-fr">C'est lui qui m'a recommandé pour ce travail.</span><span class="lang-en">He's the one who recommended me for this job.</span></span></a></li>
+<li><a href="lecon-05.html"><span class="num"><span class="lang-fr">Leçon 5</span><span class="lang-en">Lesson 5</span></span><span class="zh">就买这件吧</span><span class="sub"><span class="lang-fr">Prends celui-ci.</span><span class="lang-en">Just get this one.</span></span></a></li>
+<li><a href="lecon-06.html"><span class="num"><span class="lang-fr">Leçon 6</span><span class="lang-en">Lesson 6</span></span><span class="zh">你怎么不吃了</span><span class="sub"><span class="lang-fr">Pourquoi tu ne manges plus ?</span><span class="lang-en">Why aren't you eating anymore?</span></span></a></li>
+<li><a href="lecon-07.html"><span class="num"><span class="lang-fr">Leçon 7</span><span class="lang-en">Lesson 7</span></span><span class="zh">你家离公司远吗</span><span class="sub"><span class="lang-fr">Tu habites loin de ton entreprise ?</span><span class="lang-en">Is your home far from your company?</span></span></a></li>
+<li><a href="lecon-08.html"><span class="num"><span class="lang-fr">Leçon 8</span><span class="lang-en">Lesson 8</span></span><span class="zh">让我想想再告诉你</span><span class="sub"><span class="lang-fr">Laisse-moi y réfléchir et je te le dirai (après).</span><span class="lang-en">Let me think about it and I'll tell you (later).</span></span></a></li>
+<li><a href="lecon-09.html"><span class="num"><span class="lang-fr">Leçon 9</span><span class="lang-en">Lesson 9</span></span><span class="zh">题太多，我没做完</span><span class="sub"><span class="lang-fr">Il y a trop de questions, je n'ai pas tout fini.</span><span class="lang-en">There are too many questions, I didn't finish them all.</span></span></a></li>
+<li><a href="les-demonstratifs.html"><span class="num"><span class="lang-fr">Note de grammaire</span><span class="lang-en">Grammar note</span></span><span class="zh">Les démonstratifs — 这 那 哪</span><span class="sub"><span class="lang-fr">Proche, loin, question</span><span class="lang-en">Near, far, question</span></span></a></li>
 </ul>
+</div>
+<div class="lang-en">
+<h1>Lesson index</h1>
+<ul class="lessons">
+<li><a href="lecon-01.html"><span class="num"><span class="lang-fr">Leçon 1</span><span class="lang-en">Lesson 1</span></span><span class="zh">九月去北京旅游最好</span><span class="sub"><span class="lang-fr">Septembre est la meilleure période pour visiter Pékin.</span><span class="lang-en">September is the best time to travel to Beijing.</span></span></a></li>
+<li><a href="lecon-02.html"><span class="num"><span class="lang-fr">Leçon 2</span><span class="lang-en">Lesson 2</span></span><span class="zh">我每天六点起床</span><span class="sub"><span class="lang-fr">Je me lève à six heures tous les jours.</span><span class="lang-en">I get up at six o'clock every day.</span></span></a></li>
+<li><a href="lecon-03.html"><span class="num"><span class="lang-fr">Leçon 3</span><span class="lang-en">Lesson 3</span></span><span class="zh">左边那个红色的是我的</span><span class="sub"><span class="lang-fr">Celui de gauche en rouge, c'est le mien.</span><span class="lang-en">The red one on the left is mine.</span></span></a></li>
+<li><a href="lecon-04.html"><span class="num"><span class="lang-fr">Leçon 4</span><span class="lang-en">Lesson 4</span></span><span class="zh">这个工作是他帮我介绍的</span><span class="sub"><span class="lang-fr">C'est lui qui m'a recommandé pour ce travail.</span><span class="lang-en">He's the one who recommended me for this job.</span></span></a></li>
+<li><a href="lecon-05.html"><span class="num"><span class="lang-fr">Leçon 5</span><span class="lang-en">Lesson 5</span></span><span class="zh">就买这件吧</span><span class="sub"><span class="lang-fr">Prends celui-ci.</span><span class="lang-en">Just get this one.</span></span></a></li>
+<li><a href="lecon-06.html"><span class="num"><span class="lang-fr">Leçon 6</span><span class="lang-en">Lesson 6</span></span><span class="zh">你怎么不吃了</span><span class="sub"><span class="lang-fr">Pourquoi tu ne manges plus ?</span><span class="lang-en">Why aren't you eating anymore?</span></span></a></li>
+<li><a href="lecon-07.html"><span class="num"><span class="lang-fr">Leçon 7</span><span class="lang-en">Lesson 7</span></span><span class="zh">你家离公司远吗</span><span class="sub"><span class="lang-fr">Tu habites loin de ton entreprise ?</span><span class="lang-en">Is your home far from your company?</span></span></a></li>
+<li><a href="lecon-08.html"><span class="num"><span class="lang-fr">Leçon 8</span><span class="lang-en">Lesson 8</span></span><span class="zh">让我想想再告诉你</span><span class="sub"><span class="lang-fr">Laisse-moi y réfléchir et je te le dirai (après).</span><span class="lang-en">Let me think about it and I'll tell you (later).</span></span></a></li>
+<li><a href="lecon-09.html"><span class="num"><span class="lang-fr">Leçon 9</span><span class="lang-en">Lesson 9</span></span><span class="zh">题太多，我没做完</span><span class="sub"><span class="lang-fr">Il y a trop de questions, je n'ai pas tout fini.</span><span class="lang-en">There are too many questions, I didn't finish them all.</span></span></a></li>
+<li><a href="les-demonstratifs.html"><span class="num"><span class="lang-fr">Note de grammaire</span><span class="lang-en">Grammar note</span></span><span class="zh">Les démonstratifs — 这 那 哪</span><span class="sub"><span class="lang-fr">Proche, loin, question</span><span class="lang-en">Near, far, question</span></span></a></li>
+</ul>
+</div>
 
 </main>
-<footer class="site">HSK 2 — Standard Course · fiches personnelles</footer>
+<footer class="site"><span class="lang-fr">HSK 2 — Standard Course · fiches personnelles</span><span class="lang-en">HSK 2 — Standard Course · personal notes</span></footer>
+<script>
+(function(){
+  var KEY='hsk2-lang', root=document.documentElement;
+  function apply(en){
+    root.classList.toggle('en', en);
+    root.lang = en ? 'en' : 'fr';
+    var t = root.getAttribute(en ? 'data-title-en' : 'data-title-fr');
+    if (t) document.title = t;
+  }
+  apply((function(){try{return localStorage.getItem(KEY)==='en';}catch(e){return false;}})());
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('#lang-toggle')) return;
+    var en = !root.classList.contains('en');
+    try{localStorage.setItem(KEY, en ? 'en' : 'fr');}catch(e){}
+    apply(en);
+  });
+})();
+</script>
 </body>
 </html>
